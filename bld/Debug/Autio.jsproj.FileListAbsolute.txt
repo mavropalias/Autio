@@ -1,0 +1,13 @@
+D:\Dropbox\Development\Autio\Autio\bin\Debug\resources.pri
+D:\Dropbox\Development\Autio\Autio\bin\Debug\AppxManifest.xml
+D:\Dropbox\Development\Autio\Autio\bin\Debug\Autio.build.appxrecipe
+D:\Dropbox\Development\Autio\Autio\bld\Debug\priconfig.xml
+D:\Dropbox\Development\Autio\Autio\bld\Debug\layout.resfiles
+D:\Dropbox\Development\Autio\Autio\bld\Debug\resources.resfiles
+D:\Dropbox\Development\Autio\Autio\bld\Debug\pri.resfiles
+D:\Dropbox\Development\Autio\Autio\bld\Debug\LanguageQualifiers.txt
+D:\Dropbox\Development\Autio\Autio\bld\Debug\ProjectArchitectures.txt
+D:\Dropbox\Development\Autio\Autio\bld\Debug\priconfig.xml.intermediate
+D:\Dropbox\Development\Autio\Autio\bld\Debug\layout.resfiles.intermediate
+D:\Dropbox\Development\Autio\Autio\bld\Debug\resources.resfiles.intermediate
+D:\Dropbox\Development\Autio\Autio\bld\Debug\pri.resfiles.intermediate

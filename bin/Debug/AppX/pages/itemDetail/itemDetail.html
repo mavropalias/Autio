@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>itemDetailPage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/itemDetail/itemDetail.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <script src="/pages/itemDetail/itemDetail.js"></script>
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="itemdetailpage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle"></span>
+            </h1>
+        </header>
+        <div class="content" aria-label="Main content" role="main">
+            <article>
+                <div>
+                    <header>
+                        <h2 class="item-title"></h2>
+                        <h4 class="item-subtitle"></h4>
+                    </header>
+                    <img class="item-image" src="#" />
+                    <div class="item-content">
+                        <span class="item-progress">00:00:00</span> / 
+                        <span class="item-duration">00:00:00</span>
+                    </span>
+                    
+                    <div id="mediaControls">
+                        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'previous file', icon:'&#x23EE'}" type="button"></button>
+                        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'1 min', icon:'&#x22D8'}" type="button"></button>
+                        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'10 secs', icon:'&#x23EA'}" type="button"></button>
+                        
+                        <span class="playToggle">
+                            <button class="playerControl play" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'play', icon:'&#xE102'}" type="button"></button>
+                            <button class="playerControl pause" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'pause', icon:'&#xE103'}" type="button"></button>
+                        </span>
+
+                        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'10 secs', icon:'&#x23E9'}" type="button"></button>
+                        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'1 min', icon:'&#x22D9'}" type="button"></button>
+                        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'next file', icon:'&#x23ED'}" type="button"></button>
+
+                        <progress id="progressBar" value="0" max="100" data-win-bind="value: currentBook.progress"/> 
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+</html>

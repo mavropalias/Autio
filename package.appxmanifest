@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="a9feaa88-a30c-449c-aaf1-f5145b9bb35e" Version="1.0.0.0" Publisher="CN=Kostas" />
+  <Properties>
+    <DisplayName>Autio</DisplayName>
+    <PublisherDisplayName>Kostas</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Autio" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Autio" ForegroundText="dark" BackgroundColor="#ffffff">
+        <DefaultTile ShowName="allLogos" ShortName="Autio" />
+        <SplashScreen Image="images\splashscreen.png" BackgroundColor="#4DA6FF" />
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="default.html">
+          <BackgroundTasks>
+            <Task Type="audio" />
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
